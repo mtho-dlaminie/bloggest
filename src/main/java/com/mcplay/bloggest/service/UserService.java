@@ -3,8 +3,10 @@ package com.mcplay.bloggest.service;
 import com.mcplay.bloggest.model.User;
 import com.mcplay.bloggest.repo.UserRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
+@Service
 public class UserService {
 
     private final UserRepository userRepository;
